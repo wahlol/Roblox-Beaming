@@ -6,3 +6,6 @@ I made this because i dislike the skids on youtube and other stuff claiming beam
 # What methods or sites do you have?
 
 I lost many methods. Oopsies. Sites i can make tho.
+
+
+# https://discord.gg/pik to give ideas for more!
