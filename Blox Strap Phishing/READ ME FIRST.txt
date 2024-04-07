@@ -1,0 +1,10 @@
+How to set up!!
+
+1. go into dl.html
+
+2. replace "REPLACE THIS" with your exe download link.
+
+on your git hub make a rep and name is like bloxstrap or something and just name it download.exe and get the link and replace all "REPLACE THIS" with your links
+
+need help? add @oeaf on discord. !! make sure to star my rep.
+
