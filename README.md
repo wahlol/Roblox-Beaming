@@ -8,4 +8,4 @@ I made this because i dislike the skids on youtube and other stuff claiming beam
 I lost many methods. Oopsies. Sites i can make tho.
 
 
-# (discord acc got termed. Making new discord soon) to give ideas for more! | make sure to star!
+# (discord acc got termed. Making new discord soon. new account @ifhb) to give ideas for more! | make sure to star!
