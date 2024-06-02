@@ -1,3 +1,7 @@
+# Whats my discord
+
+My discord is @ifhb
+
 # Why did i make this?
 
 I made this because i dislike the skids on youtube and other stuff claiming beaming is the best way to get rich. no it is not. Don't fall for dualhook stuff. Thats all im saying. I don't care what you do.
@@ -8,4 +12,4 @@ I made this because i dislike the skids on youtube and other stuff claiming beam
 I lost many methods. Oopsies. Sites i can make tho.
 
 
-# (discord acc got termed. Making new discord soon. new account @ifhb) to give ideas for more! | make sure to star!
+#due to little kids and stuff i decided to leak roblox phishing source code. lol. Please note this source code is a bit old and needs to be fixed so don't ask me to fix. 
